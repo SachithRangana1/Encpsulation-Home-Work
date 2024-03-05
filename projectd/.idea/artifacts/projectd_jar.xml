@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="projectd:jar">
+    <output-path>$PROJECT_DIR$/../dist</output-path>
+    <root id="archive" name="projectd.jar">
+      <element id="module-output" name="projectd" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../dist/projecta.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../dist/projectb.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../dist/projectc.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
